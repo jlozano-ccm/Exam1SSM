@@ -1,3 +1,5 @@
+<h3>General Instructions</h3>
+
 This is a empty project template to evaluate the skills of the .net developers in the next areas:
 
 <ul>
@@ -15,25 +17,31 @@ http://www.jquery-bootgrid.com/
 
 The datagrid will show the next columns:
 
-Invoice Number
-Date
-Customer Name (FK to table Customers)
-Invoice Amount (Sum of Quantity * UnitPrice in table InvoiceDetails)
+<ul>
+<li>Invoice Number</li>
+<li>Date</li>
+<li>Customer Name (FK to table Customers)</li>
+<li>Invoice Amount (Sum of Quantity * UnitPrice in table InvoiceDetails)</li>
+</ul>
 
 Also the datagrid will have a custom column with "Details" button. When the user clicks on "Detail" a modal bootstrap window will appear showing the next information:
 
-Invoice Number
-Date
-Customer Name
-Notes
+<ul>
+<li>Invoice Number</li>
+<li>Date</li>
+<li>Customer Name</li>
+<li>Notes</li>
+</ul>
 
 Below that text fields, please add another datagrid to show the invoice detail information with the next columns:
 
-Product Id
-Product Name (FK to Products table)
-Quantity
-UnitPrice
-Total (Quantiy * UnitPrice)
+<ul>
+<li>Product Id</li>
+<li>Product Name (FK to Products table)</li>
+<li>Quantity</li>
+<li>UnitPrice</li>
+<li>Total (Quantiy * UnitPrice)</li>
+</ul>
 
 Use the bootstrap modal object to create the modal window:
 
@@ -43,8 +51,15 @@ http://getbootstrap.com/javascript/#modals
 Also feel free to usa the bootstrap framework to format your textboxes, labels, list, etc
 
 
-Database Creation
+<h3>Database Creation</h3>
 
 In order to create the database, please run the file CreateDatabase.sql on your local instance of SQL Server. The script is located in :
 
 ExamSSMDataLayer\Database Scripts
+
+
+<h3>Final Considerations</h3>
+
+Please send your finished project to the email of the person than contacted you. 
+
+Thanks and Good Luck!!!
