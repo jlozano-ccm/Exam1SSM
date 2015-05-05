@@ -14,6 +14,7 @@ The project contains an empty view, your task is to add a datagrid using :
 
 http://www.jquery-bootgrid.com/
 
+http://www.jquery-bootgrid.com/Examples#data
 
 The datagrid will show the next columns:
 
