@@ -46,6 +46,7 @@ Below that text fields, please add another datagrid to show the invoice detail i
 Use the bootstrap modal object to create the modal window:
 
 http://getbootstrap.com/
+
 http://getbootstrap.com/javascript/#modals
 
 Also feel free to usa the bootstrap framework to format your textboxes, labels, list, etc
@@ -60,6 +61,6 @@ ExamSSMDataLayer\Database Scripts
 
 <h3>Final Considerations</h3>
 
-Please send your finished project to the email of the person than contacted you. 
+Please send your finished project in a zip file to the email of the person who contacted you. 
 
 Thanks and Good Luck!!!
