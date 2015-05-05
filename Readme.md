@@ -55,10 +55,12 @@ Also feel free to usa the bootstrap framework to format your textboxes, labels, 
 
 <h3>Database Creation</h3>
 
-In order to create the database, please run the file CreateDatabase.sql on your local instance of SQL Server. The script is located in :
+In order to create the database, please follow the next instructions:
 
-ExamSSMDataLayer\Database Scripts
+- Create the database Exam1SSMDB in your local instance of MS Sql Server
+- Run the file CreateDatabase.sql on your local instance of SQL Server. The script is located in ExamSSMDataLayer\Database Scripts
 
+Please use the ExamSSMDatalayer as datalayer, because it contains an entity framework object (EntitySSMDB.edmx) to deal with the database.
 
 <h3>Final Considerations</h3>
 
