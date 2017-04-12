@@ -48,56 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customers.cs">
-      <DependentUpon>EntitySSMDB.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EntitySSMDB.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EntitySSMDB.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EntitySSMDB.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EntitySSMDB.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EntitySSMDB.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>EntitySSMDB.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="InvoiceDetails.cs">
-      <DependentUpon>EntitySSMDB.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Invoices.cs">
-      <DependentUpon>EntitySSMDB.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Products.cs">
-      <DependentUpon>EntitySSMDB.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="EntitySSMDB.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>EntitySSMDB.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.Config" />
-    <None Include="EntitySSMDB.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EntitySSMDB.edmx</DependentUpon>
-      <LastGenOutput>EntitySSMDB.Context.cs</LastGenOutput>
-    </None>
-    <None Include="EntitySSMDB.edmx.diagram">
-      <DependentUpon>EntitySSMDB.edmx</DependentUpon>
-    </None>
-    <None Include="EntitySSMDB.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>EntitySSMDB.edmx</DependentUpon>
-      <LastGenOutput>EntitySSMDB.cs</LastGenOutput>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
