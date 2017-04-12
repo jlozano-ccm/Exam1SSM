@@ -60,8 +60,6 @@ In order to create the database, please follow the next instructions:
 - Create the database Exam1SSMDB in your local instance of MS Sql Server
 - Run the file CreateDatabase.sql on your local instance of SQL Server. The script is located in ExamSSMDataLayer\Database Scripts
 
-Please use the ExamSSMDatalayer as datalayer, because it contains an entity framework object (EntitySSMDB.edmx) to deal with the database.
-
 <h3>Final Considerations</h3>
 
 Please send your finished project in a zip file to the email of the person who contacted you. 
